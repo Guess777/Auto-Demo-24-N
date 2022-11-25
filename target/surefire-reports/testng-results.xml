@@ -2,16 +2,16 @@
 <testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-24T23:55:44 IST" name="Suite" finished-at="2022-11-24T23:56:08 IST" duration-ms="23485">
+  <suite started-at="2022-11-25T15:42:51 IST" name="Suite" finished-at="2022-11-25T15:43:48 IST" duration-ms="56581">
     <groups>
     </groups>
-    <test started-at="2022-11-24T23:55:44 IST" name="Test" finished-at="2022-11-24T23:56:08 IST" duration-ms="23485">
+    <test started-at="2022-11-25T15:42:51 IST" name="Test" finished-at="2022-11-25T15:43:48 IST" duration-ms="56581">
       <class name="Tests.HomeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.HomeTest@79924b]" started-at="2022-11-24T23:55:44 IST" name="setUp" finished-at="2022-11-24T23:55:44 IST" duration-ms="26" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.HomeTest@79924b]" started-at="2022-11-25T15:42:51 IST" name="setUp" finished-at="2022-11-25T15:42:51 IST" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:Tests.HomeTest@79924b]" started-at="2022-11-24T23:55:44 IST" name="startUp" finished-at="2022-11-24T23:55:58 IST" duration-ms="13926" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:Tests.HomeTest@79924b]" started-at="2022-11-25T15:42:51 IST" name="startUp" finished-at="2022-11-25T15:43:11 IST" duration-ms="19563" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,13 +22,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="homePage()[pri:0, instance:Tests.HomeTest@79924b]" started-at="2022-11-24T23:55:58 IST" name="homePage" finished-at="2022-11-24T23:56:00 IST" duration-ms="2442" status="PASS">
+        <test-method signature="homePage()[pri:0, instance:Tests.HomeTest@79924b]" started-at="2022-11-25T15:43:11 IST" name="homePage" finished-at="2022-11-25T15:43:17 IST" duration-ms="6413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePage -->
       </class> <!-- Tests.HomeTest -->
       <class name="Tests.BrokenLinkTest">
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:Tests.BrokenLinkTest@1aa7ecca]" started-at="2022-11-24T23:56:00 IST" name="startUp" finished-at="2022-11-24T23:56:07 IST" duration-ms="6917" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:Tests.BrokenLinkTest@1aa7ecca]" started-at="2022-11-25T15:43:17 IST" name="startUp" finished-at="2022-11-25T15:43:32 IST" duration-ms="15049" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="brokenLink()[pri:0, instance:Tests.BrokenLinkTest@1aa7ecca]" started-at="2022-11-24T23:56:07 IST" name="brokenLink" finished-at="2022-11-24T23:56:08 IST" duration-ms="121" status="PASS">
+        <test-method signature="brokenLink()[pri:0, instance:Tests.BrokenLinkTest@1aa7ecca]" started-at="2022-11-25T15:43:32 IST" name="brokenLink" finished-at="2022-11-25T15:43:48 IST" duration-ms="15326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- brokenLink -->

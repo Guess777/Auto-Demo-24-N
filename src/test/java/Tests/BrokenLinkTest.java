@@ -17,6 +17,7 @@ public class BrokenLinkTest extends BaseClass{
 		
 		HomePOM home=PageFactory.initElements(driver, HomePOM.class);
 		
+		Library.Click(home.getGo());
 		Library.BrokenLink(home.getSocial());
 	}
 }

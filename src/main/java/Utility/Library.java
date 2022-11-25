@@ -26,11 +26,12 @@ public class Library {
 		for(int i=0;i<count;i++)
 		{
 			String url=list.get(i).getAttribute("href");
+			System.out.println(url);
 			HttpURLConnection conn=(HttpURLConnection)new URL(url).openConnection();
 			conn.setRequestMethod("HEAD");
 			conn.connect();
 			int respo=conn.getResponseCode();
-			
+			System.out.println(respo);
 			soft.assertTrue(respo<400, "Broken Link is"+url);
 		}
 		soft.assertAll();
